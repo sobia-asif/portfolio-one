@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHtml5 } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa6";
 import { GrCloudSoftware } from "react-icons/gr";
 import { BsBank } from "react-icons/bs";
@@ -11,7 +10,7 @@ const Skills =()=>{
 
 <div className= "container mx-auto flex px-5 py-24 items-center justify-center flex-col ">
 
-      <h1 className="title-font sm:text-8xl mb-4 font-medium text-black">
+      <h1 className="title-font sm:text-8xl mb-4 font-medium font-serif text-black">
         My Skills  
         <div className='h-1 w-full bg-gray-200 rounded-xl'></div>        
        </h1>
@@ -65,7 +64,7 @@ const Skills =()=>{
       </div>
       <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center 
       justify-center rounded-full bg-gradient-to-r from-blue-950 from-10% via-green-950 via-30% to-orange-300 to-90% 
-       text-white flex-shrink-0">
+       text-white flex-shrink-0 ">
         <GrCloudSoftware className ="text-7xl ml-4" />
       </div>
     </div>
@@ -115,11 +114,6 @@ const Skills =()=>{
         <MdCastForEducation className ="text-7xl ml-4" />
       </div>
     </div>
-
-    <button className="flex mx-auto mt-20 text-white bg-green-900 border-0 py-2 px-6 focus:outline-none
-     hover:bg-yellow-600 rounded text-lg">
-      Button
-    </button>
   </div>
 </section>
   </div>

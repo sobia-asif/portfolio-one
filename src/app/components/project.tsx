@@ -7,7 +7,7 @@ const Project =()=>{
             <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
-    <h1 className="title-font sm:text-8xl mb-4 font-medium text-black">
+    <h1 className="title-font sm:text-8xl mb-4 font-medium font-serif text-black">
         My Projects</h1>
         <div className='h-1 w-full bg-gray-200 rounded-xl'></div>  
         <br className="hidden lg:inline-block text-xl" />  

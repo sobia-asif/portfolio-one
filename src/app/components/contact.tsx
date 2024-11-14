@@ -2,9 +2,10 @@ import React from "react";
 
 const Contact =()=>{
     return(
+      
         <div id="contact">
 <section className="text-gray-600 body-font relative">
-  <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+  <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap ">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       <iframe
         width="100%"
@@ -42,12 +43,12 @@ const Contact =()=>{
       </div>
     </div>
 
-    <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-    <h1 className="title-font sm:text-6xl mb-4 font-medium text-black">
+    <div className="lg:w-1/3 md:w-1/2  bg-white flex flex-col md:ml-auto w-full md:py-1 mt-8 md:mt-0">
+    <h1 className="title-font sm:text-6xl mb-4 font-medium font-serif text-black">
         Contact us </h1>
         <div className='h-1 w-full bg-gray-200 rounded-xl'></div>  
        <p className="leading-relaxed text-grey text-sm font-semibold">
-       Don't shy to Contact
+       Do not shy to Contact
        </p>
       <div className="relative mb-4">
         <label htmlFor="name" className="leading-7 text-2xl text-gray-600">
@@ -82,11 +83,12 @@ const Contact =()=>{
           defaultValue={""}
         />
       </div>
-      <button className="text-white bg-green-900 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+      <button className="text-white bg-gradient-to-r from-blue-950 from-10% via-green-950 via-30% to-orange-300 to-90%
+    border-2 py-4 px-4 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0 ">
         Send
       </button>
       <p className="text-sm text-gray-500 mt-3">
-        we'll get back you soon
+        We will get back to you soon
       </p>
     </div>
   </div>
